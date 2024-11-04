@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('add-student-btn').addEventListener('click', function () {
         if (studentCount < studentLimit) {
             const studentNamesContainer = document.getElementById('student-names');
-            
+
             const newStudentEntry = document.createElement('div');
             newStudentEntry.classList.add('form-group', 'student-entry');
             newStudentEntry.innerHTML = `
